@@ -1,0 +1,67 @@
+[INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2026-08-25-16-39-20-311901-nvidia-desktop-37615
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [scan_cmd_vel_follower-1]: process started with pid [37660]
+[scan_cmd_vel_follower-1] [INFO] [1787647160.985305278] [scan_cmd_vel_follower]: SCAN cmd_vel follower ready: path=/visual_local_trajectory odom=/scan/Odometry cmd=/cmd_vel frame=scan_map max_vx=0.300 max_wz=0.200 lateral=disabled
+[scan_cmd_vel_follower-1] [INFO] [1787647161.011421428] [scan_cmd_vel_follower]: Waiting for odom.
+[scan_cmd_vel_follower-1] [INFO] [1787647163.012494846] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647165.062059327] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647167.111867329] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647169.162047914] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647171.212377616] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647173.261995251] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647175.312323657] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647177.312343636] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647179.312191921] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647181.312396819] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647183.313410029] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647185.361374691] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647187.361953086] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647189.413039258] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647191.462001951] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647193.461846311] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647195.512195985] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647197.511398258] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647199.512281163] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647201.512155671] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647203.512422251] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647205.562243324] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647207.612343887] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647209.662082126] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647211.712160369] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647213.712464898] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647215.761832765] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647217.812514689] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647219.862048595] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647221.862214563] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647223.912082291] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647225.961179743] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647227.962226138] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647229.962313835] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647231.963421818] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647234.012217279] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647236.012256441] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647238.062153113] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647240.062162404] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647242.063037994] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647244.113075162] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647246.162439114] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647248.163452000] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647250.211297002] [scan_cmd_vel_follower]: Waiting for local trajectory.
+[scan_cmd_vel_follower-1] [INFO] [1787647310.412844509] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647312.461775339] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647314.811782274] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647316.812743683] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647319.112420756] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647321.161955263] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647323.211839408] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647325.212757527] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647327.411733725] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647329.412542932] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647331.462474191] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647333.711754391] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647335.711879139] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647337.712796103] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647339.762914930] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647341.762922089] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647343.762979196] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.
+[scan_cmd_vel_follower-1] [INFO] [1787647345.811974765] [scan_cmd_vel_follower]: Goal reached, publish zero cmd.

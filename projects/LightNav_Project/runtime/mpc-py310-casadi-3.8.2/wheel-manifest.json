@@ -1,0 +1,10 @@
+{
+  "filename": "casadi-3.8.2-cp310-none-manylinux2014_aarch64.whl",
+  "url": "https://files.pythonhosted.org/packages/45/10/5b495dacf936d451811b05b868b72a1882d83bced4ad84a21b6748ef02c0/casadi-3.8.2-cp310-none-manylinux2014_aarch64.whl",
+  "size": 55735732,
+  "unpacked_bytes": 166396410,
+  "sha256": "e2781d665f7babd4cdedead78c2b1a5bd209d47b414c46568f68af27393e6224",
+  "requires_dist": [
+    "numpy"
+  ]
+}

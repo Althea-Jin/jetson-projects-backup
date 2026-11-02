@@ -1,0 +1,22 @@
+scan_cmd_vel_follower:
+  ros__parameters:
+    path_topic: /visual_local_trajectory
+    odom_topic: /Odometry
+    cmd_topic: /cmd_vel
+    planning_frame: camera_init
+
+    # Conservative first-test values. The lower board accepts larger values, but
+    # keep this debug stage slow until direction and stop behavior are verified.
+    lookahead_distance: 0.6
+    goal_tolerance: 0.25
+    max_linear_x: 0.4
+    max_angular_z: 0.4
+    k_linear: 0.4
+    k_angular: 1.0
+    slow_heading: 0.7
+    stop_heading: 1.2
+
+    path_timeout: 1.0
+    odom_timeout: 0.5
+    publish_rate: 20.0
+    allow_reverse: false

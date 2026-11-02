@@ -1,0 +1,15 @@
+build/
+install/
+log/
+
+*/build/
+*/install/
+*/log/
+
+__pycache__/
+*.pyc
+*.pyo
+
+.agents/
+.codex/
+.DS_Store

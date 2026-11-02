@@ -1,0 +1,19 @@
+# Target labels
+ Extra
+ opencv_plot
+ Module
+# Source files and their labels
+/home/nvidia/JEP/script/workspace/opencv_contrib-4.10.0/modules/plot/include/opencv2/plot.hpp
+ Extra
+ opencv_plot
+ Module
+/home/nvidia/JEP/script/workspace/opencv_contrib-4.10.0/modules/plot/src/plot.cpp
+ Extra
+ opencv_plot
+ Module
+/home/nvidia/JEP/script/workspace/opencv_contrib-4.10.0/modules/plot/src/precomp.hpp
+ Extra
+ opencv_plot
+ Module
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/cvconfig.h
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/opencv2/opencv_modules.hpp

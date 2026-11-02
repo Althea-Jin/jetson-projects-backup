@@ -1,0 +1,28 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+{
+  "python": "/usr/bin/python3",
+  "version": "3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]",
+  "architecture": "aarch64",
+  "casadi": "3.8.2",
+  "numpy": "1.23.5",
+  "modules": {
+    "rclpy": "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py",
+    "geometry_msgs.msg": "/opt/ros/humble/local/lib/python3.10/dist-packages/geometry_msgs/msg/__init__.py",
+    "nav_msgs.msg": "/opt/ros/humble/local/lib/python3.10/dist-packages/nav_msgs/msg/__init__.py",
+    "std_msgs.msg": "/opt/ros/humble/local/lib/python3.10/dist-packages/std_msgs/msg/__init__.py",
+    "numpy": "/usr/local/lib/python3.10/dist-packages/numpy/__init__.py",
+    "casadi": "/home/nvidia/LightNav_Project/runtime/mpc-py310-casadi-3.8.2/site-packages/casadi/__init__.py",
+    "vln_mpc.mpc_node": "/home/nvidia/LightNav_Project/robot_deploy/build/vln_mpc/vln_mpc/mpc_node.py"
+  },
+  "solve_command": [
+    0.2,
+    0.0
+  ],
+  "ros_initialized": false
+}

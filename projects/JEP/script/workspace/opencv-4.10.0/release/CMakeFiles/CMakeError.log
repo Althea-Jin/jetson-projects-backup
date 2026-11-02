@@ -1,0 +1,436 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3020/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3020.dir/build.make CMakeFiles/cmTC_b3020.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3020.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles/cmTC_b3020.dir/src.c.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_b3020
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3020.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_b3020.dir/src.c.o -o cmTC_b3020 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5cf99/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5cf99.dir/build.make CMakeFiles/cmTC_5cf99.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5cf99.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_5cf99.dir/src.cxx.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_5cf99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cf99.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_5cf99.dir/src.cxx.o -o cmTC_5cf99 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a4e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a4e9.dir/build.make CMakeFiles/cmTC_3a4e9.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3a4e9.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_3a4e9.dir/src.cxx.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_3a4e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a4e9.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_3a4e9.dir/src.cxx.o -o cmTC_3a4e9 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0898c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0898c.dir/build.make CMakeFiles/cmTC_0898c.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0898c.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_0898c.dir/src.c.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_0898c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0898c.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_0898c.dir/src.c.o -o cmTC_0898c 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8f489/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f489.dir/build.make CMakeFiles/cmTC_8f489.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f489.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_8f489.dir/src.c.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_8f489
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f489.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_8f489.dir/src.c.o -o cmTC_8f489 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1205d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1205d.dir/build.make CMakeFiles/cmTC_1205d.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1205d.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_1205d.dir/src.c.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_1205d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1205d.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_1205d.dir/src.c.o -o cmTC_1205d 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a593b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a593b.dir/build.make CMakeFiles/cmTC_a593b.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a593b.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_a593b.dir/src.cxx.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_a593b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a593b.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_a593b.dir/src.cxx.o -o cmTC_a593b 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d4c1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d4c1.dir/build.make CMakeFiles/cmTC_9d4c1.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d4c1.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_9d4c1.dir/src.c.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_9d4c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d4c1.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_9d4c1.dir/src.c.o -o cmTC_9d4c1 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a7bd1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a7bd1.dir/build.make CMakeFiles/cmTC_a7bd1.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7bd1.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_a7bd1.dir/src.c.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_a7bd1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7bd1.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_a7bd1.dir/src.c.o -o cmTC_a7bd1 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_68dd5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_68dd5.dir/build.make CMakeFiles/cmTC_68dd5.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68dd5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_68dd5.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_68dd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68dd5.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_68dd5.dir/CheckFunctionExists.c.o -o cmTC_68dd5 
+/usr/bin/ld: CMakeFiles/cmTC_68dd5.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_68dd5.dir/build.make:99: cmTC_68dd5] Error 1
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_68dd5/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_76773/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_76773.dir/build.make CMakeFiles/cmTC_76773.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_76773.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_76773.dir/src.cxx.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_76773
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76773.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_76773.dir/src.cxx.o -o cmTC_76773 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4cc24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4cc24.dir/build.make CMakeFiles/cmTC_4cc24.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4cc24.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_4cc24.dir/src.cxx.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_4cc24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cc24.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_4cc24.dir/src.cxx.o -o cmTC_4cc24 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_70583/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_70583.dir/build.make CMakeFiles/cmTC_70583.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70583.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_70583.dir/src.cxx.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_70583
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70583.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_70583.dir/src.cxx.o -o cmTC_70583 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e57f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e57f0.dir/build.make CMakeFiles/cmTC_e57f0.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e57f0.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_e57f0.dir/src.cxx.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_e57f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e57f0.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e57f0.dir/src.cxx.o -o cmTC_e57f0 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e81f3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e81f3.dir/build.make CMakeFiles/cmTC_e81f3.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e81f3.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_e81f3.dir/src.cxx.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_e81f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e81f3.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e81f3.dir/src.cxx.o -o cmTC_e81f3 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-comma’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-comma'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6b1c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6b1c.dir/build.make CMakeFiles/cmTC_e6b1c.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6b1c.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -Wno-extra-semi  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-comma -std=c++11 -o CMakeFiles/cmTC_e6b1c.dir/src.cxx.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-comma’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_e6b1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6b1c.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -Wno-extra-semi  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e6b1c.dir/src.cxx.o -o cmTC_e6b1c 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2c76a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2c76a.dir/build.make CMakeFiles/cmTC_2c76a.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c76a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_2c76a.dir/CheckIncludeFile.c.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_2c76a.dir/build.make:78: CMakeFiles/cmTC_2c76a.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2c76a/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-unused-private-field’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ee72f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ee72f.dir/build.make CMakeFiles/cmTC_ee72f.dir/build
+gmake[1]: Entering directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ee72f.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-unused-private-field -std=c++11 -o CMakeFiles/cmTC_ee72f.dir/src.cxx.o -c /home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-unused-private-field’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_ee72f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee72f.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_ee72f.dir/src.cxx.o -o cmTC_ee72f 
+gmake[1]: Leaving directory '/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+

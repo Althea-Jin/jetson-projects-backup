@@ -1,0 +1,3 @@
+[INFO] [1787647152.078226449] [fastlio_frame_corrector]: FAST-LIO frame corrector: cloud /cloud_registered -> /scan/cloud_registered, odom /Odometry -> /scan/Odometry, frame=scan_map, child=base_link
+[INFO] [1787647152.078569022] [fastlio_frame_corrector]: FAST-LIO frame corrector: effected /cloud_effected -> /scan/cloud_effected, map /Laser_map -> /scan/Laser_map
+[INFO] [1787647152.078603199] [fastlio_frame_corrector]: Correction: x'=x, y'=-y, z'=-z

@@ -1,0 +1,19 @@
+# Target labels
+ Extra
+ opencv_freetype
+ Module
+# Source files and their labels
+/home/nvidia/JEP/script/workspace/opencv_contrib-4.10.0/modules/freetype/include/opencv2/freetype.hpp
+ Extra
+ opencv_freetype
+ Module
+/home/nvidia/JEP/script/workspace/opencv_contrib-4.10.0/modules/freetype/src/freetype.cpp
+ Extra
+ opencv_freetype
+ Module
+/home/nvidia/JEP/script/workspace/opencv_contrib-4.10.0/modules/freetype/src/precomp.hpp
+ Extra
+ opencv_freetype
+ Module
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/cvconfig.h
+/home/nvidia/JEP/script/workspace/opencv-4.10.0/release/opencv2/opencv_modules.hpp

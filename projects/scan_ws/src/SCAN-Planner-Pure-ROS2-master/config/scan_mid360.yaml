@@ -1,0 +1,17 @@
+scan_planner_interactive_node:
+  ros__parameters:
+    cloud_topic: /robot_0/cloud_registered_world
+    odom_topic: /robot_0/odometry
+    global_path_topic: /scan_global_path
+    planning_frame: world
+    local_range_x: 4.0
+    local_range_y: 4.0
+    local_range_z_down: 1.0
+    local_range_z_up: 1.5
+    # Atom01 URDF 简化碰撞体约 x±0.12m、y±0.21m、z 总高约1.0m；
+    # 这里略放大，过滤雷达扫到的自身身体/腿部点云。
+    self_filter_x: 0.35
+    self_filter_y: 0.35
+    self_filter_z: 1.10
+    voxel_size: 0.08
+    max_obstacle_points: 60000

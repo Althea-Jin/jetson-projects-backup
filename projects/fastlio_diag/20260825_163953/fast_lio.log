@@ -1,0 +1,15 @@
+[INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2026-08-25-16-39-11-060761-nvidia-desktop-37337
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [fastlio_mapping-1]: process started with pid [37427]
+[INFO] [rviz2-2]: process started with pid [37429]
+[fastlio_mapping-1] [INFO] [1787647151.323421656] [laser_mapping]: p_pre->lidar_type 1
+[fastlio_mapping-1] Multi thread started 
+[fastlio_mapping-1] ~~~~/home/nvidia/lio_ws/src/FAST_LIO_ROS2/ file opened
+[fastlio_mapping-1] [INFO] [1787647151.339693373] [laser_mapping]: Node init finished.
+[rviz2-2] [INFO] [1787647152.582949796] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-2] [INFO] [1787647152.583183213] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-2] [INFO] [1787647152.626348326] [rviz2]: Stereo is NOT SUPPORTED
+[fastlio_mapping-1] IMU Initial Done
+[fastlio_mapping-1] [WARN] [1787647152.679615642] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] [INFO] [1787647152.690623545] [laser_mapping]: Initialize the map kdtree
